@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <title>Revolutionary Technology</title>
+       <link rel="stylesheet" href="Contents/main.css/">
+       <body>
+           <div class="container">
+               <header>
+                   <nav role="navigation">
+                       <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active"><a href="buyaplane.html">Buy A Plane</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                       </ul>
+                   </nav>
+               </header>
+              
+                  
+               <main role="main">
+                   <article class="article">
+                       <h1>Own your Own!</h1>
+                       
+                       <!--PLANE ONE FOR SALE/-->
+                       <h2>Bi-Wing plane <em><q>Old Devil</q></em></h2>
+                       <img src="Assets/images/bi-wing.jpeg" alt="Old Devil" width="300px;" height="212px;">
+                       <p>Order Number: 00123</p>
+                       
+                        <!--PLANE TWO FOR SALE/-->
+                       <h2>Single Engine <em><q>Blazing Furry</q></em></h2>
+                       <img src="Assets/images/classic-2.jpg" alt="Blazing Fury" width="300px;" height="212px;">
+                       <p>Order Number: 00124</p>
+                       
+                       <!--PLANE THREE FOR SALE/-->
+                       <h2>Tri-Wing <em><q>Triple Threat</q></em></h2>
+                       <img src="Assets/images/tri-wing.jpg" alt="Triple Threat" width="300px;" height="212px;">
+                       <p>Order Number: 00125</p>
+                       
+                       </article>
+                       
+                       <!-- THIS IS THE FORM SECTION/-->
+                       <section class="form">
+                           <fieldset class="orderform">
+                               <legend>Order Form</legend>
+                               
+                               <div class="row formgroup">
+                                   <form action="processform.php" method="post" id="first form" class="forms">
+                                       <label for="FirstName">First Name</label>
+                                       <input type="text" id="firstname" name="firstname" class="FormControl" placeholder="Enter Your Fist Name" required>
+                                   
+                               </div>
+                               
+                               <div class="row formgroup">
+                           
+                                       <label for="lastname">Last Name</label>
+                                       <input type="text" id="lastname" name="lastname" class="formControl" placeholder="Enter Your Last Name" required>
+                               </div>
+                               
+                               <div class="row formgroup">
+                           
+                                       <label for="email">Email</label>
+                                       <input type="text" id="email" name="email" class="formControl" placeholder="Enter Your Email" required>
+                               </div>
+                               
+                               <div class="row formgroup">
+                           
+                                       <label for="order number">Order Number</label>
+                                       <input type="text" id="ordernumber" name="ordernumber" class="formControl" placeholder="Enter The Order Number" required>
+                                       
+                               <div class="row formgroup">
+                                      
+                                       <label for="inquiry">How Did You Find Us?</label> <br>
+                                       
+                                       <label for="inquiry">Internet</label>
+                                       <input type="Radio" id="radioButton" name="radio" class="button"> <br>
+                                       
+                                       <label for="inquiry">Friend</label>
+                                       <input type="Radio" id="radioButton" name="radio" class="button"><br>
+                                       
+                                       <label for="inquiry">Television or Radio</label>
+                                       <input type="Radio" id="radioButton" name="radio" class="button">
+                                       
+                                       
+
+                               </div>
+                                       
+                               <div class="row formgroup">
+                                       <input type="Submit" id="submitButton" name="submit" class="button">
+
+                               </div>
+                            
+                            </form>
+
+                         </fieldset>
+                           
+                       </section>
+               
+               
+               </main>
+               <footer role="contentinfo">
+                   <hr>
+                    &copy; Copyright 2015
+               </footer>
+
+           </div>
+       </body>
+        
+    </head>
+</html>

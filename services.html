@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <title>Revolutionary Technology</title>
+       <link rel="stylesheet" href="Contents/main.css/">
+       <body>
+           <div class="container">
+               <header>
+                   <nav role="navigation">
+                       <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="buyaplane.html">Buy A Plane</a></li>
+                            <li class="active"><a href="services.html">Services</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                       </ul>
+                   </nav>
+               </header>
+               <main role="main">
+                   <article class="article">
+                       <h1>Services</h1>
+                       
+                       <!-- Image sectiom/-->
+                       <img src="Assets/images/harrison-ford-plane-crash.jpg" alt="Plane Repair" width="400px;" height="250px;"> <br>
+                       
+                       <p>Experiencing issues with one of our planes or one of your own. No worries!! We fix everything! Just leave us your info and we will get back to you as soon as possible.</p>
+                       
+                       </article>
+                       
+                       
+                       <!-- THIS IS THE FORM SECTION/-->
+                       <section class="form">
+                           <fieldset class="orderform">
+                               <legend>How Can We Help?</legend>
+                               
+                               <div class="row formgroup">
+                                   <form action="processform.php" method="post" id="first form" class="forms">
+                                       <label for="FirstName">First Name</label>
+                                       <input type="text" id="firstname" name="firstname" class="FormControl" placeholder="Enter Your Fist Name" required autofocus>
+                                   
+                               </div>
+                               
+                               <div class="row formgroup">
+                           
+                                       <label for="lastname">Last Name</label>
+                                       <input type="text" id="lastname" name="lastname" class="formControl" placeholder="Enter Your Last Name" required>
+                               </div>
+                               
+                               <div class="row formgroup">
+                           
+                                       <label for="email">Email</label>
+                                       <input type="text" id="email" name="email" class="formControl" placeholder="Enter Your Email" required>
+                               </div>
+                               
+                               <div class="row formgroup">
+                                   <label for="problems">Tell Us What The Issue Is</label> <br>
+                                   <textarea rows="10" cols="50"></textarea>
+                               </div>
+                               
+                               <div class="row formgroup">
+                                       <input type="Submit" id="submitButton" name="submit" class="button">
+
+                               </div>
+                       
+                       
+                
+               </main>
+           </div>
+       </body>
+        
+    </head>
+</html>
